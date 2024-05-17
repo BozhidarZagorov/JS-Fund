@@ -150,3 +150,28 @@
 //     }
 // }
 // multTable(100)
+
+//-------------------------------------------------------------------------------------
+
+//zad 9
+
+// function login(input) {
+//     const password =  Array.from(input[0]).reverse().join("");
+//     for (let i = 1; i <= 4; i++) {
+//         let check = input[i]
+//         if (check===password) {
+//             console.log(`User ${input[0]} logged in.`);
+//             return
+//         }else if (i<4) {
+//             console.log(`Incorrect password. Try again.`);
+//         } 
+//     }
+//     console.log(`User ${input[0]} blocked!`);
+// }
+
+// login(['Acer','login','go','let me in','recA'])
+// login(['momo','omom'])
+// login(['sunny','rainy','cloudy','sunny','not sunny'])
+
+
+
