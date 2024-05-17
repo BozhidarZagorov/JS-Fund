@@ -1,6 +1,3 @@
-// github https://www.youtube.com/watch?v=zIjLS6EZpA8
-// linktree https://linktr.ee/AlexandrinaMehandzhiyska
-
 // function ages(age) {
 //     if (age>=0 && age<=2) {
 //         console.log(`baby`);
@@ -122,7 +119,7 @@
 //    }else console.log(`no`);
 //}
 
-//leapYear(1900) // stranna rabota maina 1900 ne e visokosna ... the more you know
+//leapYear(1900) // 1900 ne e visokosna ... the more you know
 
 // function sumOfPrint(num1,num2) {
 //     let line=``
