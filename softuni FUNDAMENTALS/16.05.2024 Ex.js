@@ -173,5 +173,37 @@
 // login(['momo','omom'])
 // login(['sunny','rainy','cloudy','sunny','not sunny'])
 
+// zad 10
 
+// function pyramidKingDjoser(base,increment) {
+//     let height = 0
+//     let inner=base-2
+//     let stone=0
+//     let marble=0
+//     let lapis = 0
+//     let gold=0
+//     let step = 1
+//     for (base; base >= 3; base-=2) {
+//         stone=stone+(inner*inner)
+//         if (step<5) {
+//             marble=marble+((base*base)-(inner*inner))
+//         }else{
+//             lapis=lapis+((base*base)-(inner*inner))
+//             step=0  
+//         } 
+//         step++
+//         inner-=2
+//         height++
+//     }
+//     if (base <= 2) {
+//         gold=base*base
+//         height++
+//     }
+//     console.log(`Stone required: ${Math.ceil(stone*increment)}`);
+//     console.log(`Marble required: ${Math.ceil(marble*increment)}`);
+//     console.log(`Lapis Lazuli required: ${Math.ceil(lapis*increment)}`);
+//     console.log(`Gold required: ${Math.ceil(gold*increment)}`);
+//     console.log(`Final pyramid height: ${Math.floor(height*increment)}`);
+// }
 
+// pyramidKingDjoser(23,0.5)
