@@ -114,15 +114,15 @@
 // vacAtion(40,"Regular","Saturday")
 // vacAtion(110,`Business`,`Sunday`)
 
-function leapYear(year) {
-    if (year%4 === 0 && year%100 !== 0) {
-        console.log(`yes`);
-    }else if(year%400===0){
-        console.log(`yes`);
-    }else console.log(`no`);
-}
+//function leapYear(year) {
+//    if (year%4 === 0 && year%100 !== 0) {
+//        console.log(`yes`);
+//    }else if(year%400===0){
+//        console.log(`yes`);
+//    }else console.log(`no`);
+//}
 
-leapYear(1900) // stranna rabota maina 1900 ne e visokosna ... the more you know
+//leapYear(1900) // stranna rabota maina 1900 ne e visokosna ... the more you know
 
 // function sumOfPrint(num1,num2) {
 //     let line=``
