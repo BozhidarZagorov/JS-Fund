@@ -1,6 +1,6 @@
 // function sortNum(one,two,three) {
 //     const numbers = [one,two,three]
-//     numbers.sort(function(a,b){return b-a})
+//     numbers.sort(function(a,b){return b-a})      // sorting the array from biggest to lowest
 //     for (let i = 0; i < 3; i++) {
 //         console.log(numbers[i]);
 //     }
