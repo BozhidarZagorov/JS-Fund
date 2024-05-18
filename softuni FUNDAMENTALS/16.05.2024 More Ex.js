@@ -40,3 +40,19 @@
 //numToWord(512)
 //numToWord(1)
 //numToWord(20)
+
+// function reverseString(input) {
+//     const reversed =  Array.from(input).reverse().join("");
+//     console.log(reversed);
+// }
+// reverseString("Hello")
+
+
+
+// function distance(x1,y1,x2,y2) {
+//     x=Math.pow(x2-x1,2)
+//     y=Math.pow(y2-y1,2)
+//     console.log(Math.sqrt(Math.pow(x2-x1,2)+Math.pow(y2-y1,2)))      //  √(x2−x1)2+(y2−y1)2 distance betwean two points
+// }
+// distance(2,4,5,0)
+// distance(2.34, 15.66, -13.55, -2.9985)
