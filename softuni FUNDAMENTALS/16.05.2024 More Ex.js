@@ -50,9 +50,29 @@
 
 
 // function distance(x1,y1,x2,y2) {
-//     x=Math.pow(x2-x1,2)
-//     y=Math.pow(y2-y1,2)
-//     console.log(Math.sqrt(Math.pow(x2-x1,2)+Math.pow(y2-y1,2)))      //  √(x2−x1)2+(y2−y1)2 distance betwean two points
+//     console.log(Math.sqrt(Math.pow(x2-x1,2)+Math.pow(y2-y1,2)))      //  √(x2−x1)2+(y2−y1)2 distance between two points
 // }
 // distance(2,4,5,0)
 // distance(2.34, 15.66, -13.55, -2.9985)
+
+//////////////////////////////////////////////////////////////////////////////////////////
+// thats not ok
+
+// function nextDayBadExample(year,month,day) {
+//     day+=1
+//     if (day===31) {
+//         day=1
+//         month+=1
+//     }
+//     if (month>12) {
+//         month-=12                       // ne sym syglasen 4e do tuk trqbvashe da se stiga s hard codvane dori godinata ne e popravena s funkciq date stavat nqkvi stranni neshta fix
+//     }
+//     if (year<1900) {
+//         year+=1900
+//     }
+//     console.log(`${year}-${month}-${day}`);
+// }
+// nextDayBadExample(2016,9,30)
+// nextDayBadExample(2020,3,24)
+// nextDayBadExample(1951,12,24)
+// nextDayBadExample(1,1,1)
