@@ -69,9 +69,26 @@
 // }
 // calculator(5,'/',10)
 
-function name(params) {
-    
-}
+// function gladiatorExpenses(lostFights,helmPrice,swordPrice,shieldPrice,armorPrice) {
+//     let expenses = 0
+//     for (let currLostFight=1;  currLostFight<= lostFights; currLostFight++) {
+//         if (currLostFight%2 === 0) {
+//             expenses+=helmPrice
+//         }
+//         if (currLostFight%3 === 0) {
+//             expenses+=swordPrice
+//         }
+//         if (currLostFight%6 === 0) {
+//             expenses+=shieldPrice
+//         }
+//         if (currLostFight%12 === 0) {
+//             expenses+=armorPrice
+//         }   
+//     }
+//     console.log(`Gladiator expenses: ${expenses.toFixed(2)} aureus`);
+// }
+// gladiatorExpenses(7,2,3,4,5)
+// gladiatorExpenses(23,12.50,21.50,40,200)
 
 // more ex 
 // console.log(parseInt(binaryNum, 2)); На 5та зад. от more exercise решението
