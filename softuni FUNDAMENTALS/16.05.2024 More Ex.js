@@ -76,3 +76,10 @@
 // nextDayBadExample(2020,3,24)
 // nextDayBadExample(1951,12,24)
 // nextDayBadExample(1,1,1)
+
+// function nextDayWorking(year,month,day) {
+//     let date = new Date(year,month-1,day)
+//     date.setDate(date.getDate()+1)
+//     console.log(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}`);
+// }
+// nextDayWorking(2020,12,24)
