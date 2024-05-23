@@ -145,3 +145,43 @@
 // }
 // amazing(999)
 // amazing(1233)
+
+
+// function gramophone(band,album,songName) {
+//         let time = album.length*band.length*songName.length/2
+//         let rotations = Math.ceil(time/2.5)
+//         console.log(`The plate was rotated ${rotations} times.`);
+// }
+// gramophone('Black Sabbath','Paranoid','War Pigs')
+// gramophone('Rammstein','Sehnsucht','Engel')
+
+
+// function reqReading(numPages,pagesInOneHr,deadline) {
+//         console.log(numPages/pagesInOneHr/deadline);
+// }
+// reqReading(212,20,2)
+// reqReading(432,15,4)
+
+//Honestly at this point just making some variable would have been easier and faster
+// function centuriesToMin(centuries) {
+//         console.log(`${centuries} centuries = ${centuries*100} years = ${Math.floor(centuries*100*365.2422)} days = ${Math.floor(centuries*100*365.2422)*24} hours = ${Math.floor(centuries*100*365.2422)*24*60} minutes`);
+// }
+// centuriesToMin(5)
+
+// function specialNums(input) {
+//         let digitSum=0
+//         for (let i = 1; i <= input; i++) {
+//                 let stringed = `${i}`
+//                 let sum = i
+//                 digitSum = 0
+//                 for (let j = 0; j < stringed.length; j++) {
+//                         let digit = sum%10
+//                         digitSum+= digit
+//                         sum = parseInt(sum/10)
+//                 }
+//                 if (digitSum === 5 || digitSum === 7 || digitSum === 11) {
+//                         console.log(`${i} -> True`);
+//                 }else console.log(`${i} -> False`);       
+//         }
+// }
+// specialNums(20)
