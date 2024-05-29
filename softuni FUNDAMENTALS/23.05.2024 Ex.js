@@ -92,3 +92,19 @@
 
 // more ex 
 // console.log(parseInt(binaryNum, 2)); На 5та зад. от more exercise решението
+
+// function spice(src) {
+//     let spices = 0
+//     let days = 0
+//     for (src;src>= 100;src-=10) {
+//         spices+=src-26
+//         days++
+//     }
+//     if (spices>=26) {
+//         spices-=26
+//     }
+//     console.log(days);
+//     console.log(spices);
+// }
+// spice(111)
+// spice(450)

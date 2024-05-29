@@ -185,3 +185,21 @@
 //         }
 // }
 // specialNums(20)
+
+// function trippleLatin(n) {
+//         // let arr=Number(n)
+//         let firstChar = ''
+//         let secondChar = ''
+//         let thirdChar = ''
+//         for (let a = 0; a < n; a++) {
+//                 firstChar=String.fromCharCode(97+a)
+//                 for (let b = 0; b < n; b++) {
+//                         secondChar=String.fromCharCode(97+b)
+//                         for (let c = 0; c < n; c++) {
+//                                 thirdChar=String.fromCharCode(97+c)
+//                                 console.log(`${firstChar}${secondChar}${thirdChar}`);   
+//                         } 
+//                 }
+//         }
+// }
+// trippleLatin('4')
