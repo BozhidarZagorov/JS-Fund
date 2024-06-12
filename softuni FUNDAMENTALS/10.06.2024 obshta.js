@@ -1,0 +1,1 @@
+// razqsnenie na oop i dr
