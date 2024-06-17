@@ -243,3 +243,37 @@
 //     }
 //     console.log(`</div>`);
 // }
+
+
+// function shop(item,times) {
+//     const cof=(x)=>(x*1.50).toFixed(2)
+//     const wat=(x)=>(x*1).toFixed(2)
+//     const coke=(x)=>(x*1.40).toFixed(2)
+//     const snack=(x)=>(x*2).toFixed(2)
+//     switch (item) {
+//         case 'coffee':
+//             console.log(cof(times));
+//             break;
+//         case 'water':
+//             console.log(wat(times));
+//             break;
+//         case 'coke':
+//             console.log(coke(times));
+//             break;
+//         case 'snacks':
+//             console.log(snack(times));
+//             break;
+//         default:
+//             break;
+//     }
+// }
+// // shop("coffee", 2)
+// // shop("water", 5)
+
+// function sighCheck(numOne,numTwo,numThree) {
+//     const sum = numOne*numTwo*numThree
+//     if (sum>0) {
+//         console.log(`Positive`);
+//     }else console.log(`Negative`);
+// }
+// sighCheck(5,12,-15)

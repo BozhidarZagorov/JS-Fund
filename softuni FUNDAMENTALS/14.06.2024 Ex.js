@@ -186,3 +186,58 @@
 // }
 // arrManipulator([1, 2, 4, 5, 6, 7],['add 1 8', 'contains 1', 'contains 3', 'print'])
 // arrManipulator([1, 2, 3, 4, 5],['addMany 5 9 8 7 6 5', 'contains 15', 'remove 3','shift 1', 'print'])
+
+// function bombNums(arr,bombPower) {
+//     const copy =arr
+//     let result = 0
+//     for (let  i= 0;  i < arr.length; i++) {
+//         const element = copy[i];
+//         if (element === `undefined`) {
+//             break
+//         // }else if (i==0 && element===bombPower[0]) {
+//         //     copy.splice(i,bombPower[1]+1)
+//         }else if (i<bombPower[1] && element===bombPower[0]) {
+//             copy.splice(0,bombPower[1]+i+1)
+//             i=0
+//         }else if (element===bombPower[0]) {
+//             copy.splice(i+1,bombPower[1])
+//             copy.splice(i-bombPower[1],bombPower[1]+1)
+//             i=0
+//         }
+//     }
+//     // console.log(copy);
+//     for (let i = 0; i < copy.length; i++) {
+//         const element = copy[i];
+//         result+=element
+//     }
+//     console.log(result);
+// }
+// bombNums([1, 1, 3, 4, 2, 2, 2, 9],[4, 3]) //testova
+
+// bombNums([1, 2, 2, 4, 2, 2, 2, 9],[4, 2]) //[1, 2, 9] 12
+// bombNums([1, 4, 4, 2, 8, 9, 1], [9, 3]) //[1, 4] 5
+// bombNums([1, 7, 7, 1, 2, 3],[7, 1]) //[1, 2, 3] 6
+// bombNums([1, 1, 2, 1, 1, 1, 2, 1, 1, 1],[2, 1]) //[1, 1, 1, 1] 4
+//След това трябва да нулираш индекса когато намериш бомба. Да започва от 0. Щото новите елементи които ще дойдат на мястото на изтритите, ще са с индекс 3 и 4 да кажем, а твоето i е вече на 5ти индекс, и ти ги изпускаш. Може там да има бомба.
+
+
+// function searchForNum(arr,manipulation) {
+//     const takeElements = manipulation[0]
+//     const deleteElements=manipulation[1]
+//     const specialNum = manipulation[2]
+//     let occurence = 0
+
+//     const manipulatedArr = arr.slice(0,takeElements)
+//     const newArr = manipulatedArr.slice(deleteElements)
+
+//     for (let i = 0; i < newArr.length; i++) {
+//         const element = newArr[i];
+
+//         if (element === specialNum) {
+//             occurence++
+//         }
+//     } 
+//     console.log(`Number ${specialNum} occurs ${occurence} times.`);
+// }
+// searchForNum([5, 2, 3, 4, 1, 6],[5, 2, 3])
+// searchForNum([7, 5, 5, 8, 2, 7],[3, 1, 5])

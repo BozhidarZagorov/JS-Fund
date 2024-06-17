@@ -140,3 +140,35 @@
 //     }
 // }
 // loadingBar(30)
+
+    // function smallestNumOfThree(a,b,c) {
+    //     const result=Math.min(a,b,c)
+    //     console.log(result);
+    // }
+    // smallestNumOfThree(2,5,3)
+    // smallestNumOfThree(600,342,123)
+
+
+// function oddAndEvenSum(num) {
+//     const stringedNum = num+''
+//     let oddSum=0
+//     let evenSum=0
+//     for (let i = 0; i < stringedNum.length; i++) {
+//         const element = Number(stringedNum[i])
+//         if (element%2===0) {
+//             evenSum+=element
+//         }else oddSum+=element
+//     }
+//     console.log(`Odd sum = ${oddSum}, Even sum = ${evenSum}`);
+// }
+// oddAndEvenSum(1000435)
+// oddAndEvenSum(3495892137259234)
+
+// function matrixNxN(num) {
+//     const element = num+' '
+//     for (let i = 0; i <num; i++) {
+//         console.log(element.repeat(num));
+//     }
+// }
+// matrixNxN(3)
+// matrixNxN(7)

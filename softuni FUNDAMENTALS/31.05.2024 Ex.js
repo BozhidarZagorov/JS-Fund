@@ -165,3 +165,18 @@
 // }
 // dungeonestDark(["rat 10|bat 20|potion 10|rat 10|chest 100|boss 70|chest 1000"])
 // // dungeonestDark(["cat 10|potion 30|orc 10|chest 10|snake 25|chest 110"])
+
+// function magicSum(arr,mSum) {
+//     for (let i = 0; i <= arr.length; i++) {
+//         const num1=arr[i]
+//         for (let j = i+1; j <= arr.length; j++) {
+//             const num2=arr[j]
+//             if (num1+num2===mSum) {
+//                 console.log(`${num1} ${num2}`);
+//             }
+//         }
+//     }
+// }
+// magicSum([1, 7, 6, 2, 19, 23],8)
+// magicSum([14, 20, 60, 13, 7, 19, 8],27)
+// magicSum([1, 2, 3, 4, 5, 6],6)
