@@ -10,7 +10,8 @@ function blackFlag(arr){
         plunder+=dailyPlunder
         if (day%3===0) {
             plunder+=bonusPlunderDay
-        }else if (day%5===0) {
+        }
+        if (day%5===0) {                                // da go imam predvid za bydeshte ima slu4ai kydeto se deli na 3 i na 5 obviosly i trqbva da sa vyv otdelni if-ove
             plunder=plunder*0.7
             // console.log(`${plunder} day%5`);
         }
@@ -28,5 +29,3 @@ function blackFlag(arr){
 blackFlag(["5","40","100"])
 // blackFlag(["10","20","380"])
     
-// ???? 60/100 nz kyde da gyrmi dori i procentite iz4istih s percentage 2 ddz ve4e i zavyrtqn if ne mu haresva nz ve4e baligo
-// po nqkakva pri4ina 50 /500 /5000 kato dni imat ednakyv rezultat moje bi tam trqbva da se pogledne
