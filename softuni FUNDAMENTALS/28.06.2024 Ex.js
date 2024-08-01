@@ -161,3 +161,115 @@
 //     console.log(storage.totalCost);
 
 // ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// function storeProvision(arr1,arr2) {
+//     const storeInventory={}
+
+//     //put items in obj
+//     for (let i = 0; i < arr1.length; i+=2) {
+//             const item = arr1[i];
+//             const itemQty=Number(arr1[i+1])         
+//             storeInventory[item]=itemQty
+//     }
+//     //restock
+//     for (let i = 0; i < arr2.length; i+=2) {
+//         const item = arr2[i];
+//         const itemQty=Number(arr2[i+1])         
+        
+//         if (storeInventory.hasOwnProperty(item)) {  
+//             storeInventory[item]+=itemQty
+//         }else{
+//             storeInventory[item]=itemQty
+//         }
+//     }
+//     let inventory = Object.entries(storeInventory)
+
+//     for (const [item,quantity] of inventory) {
+//        console.log(`${item} -> ${quantity}`);
+//     }
+// }
+// storeProvision(['Chips', '5', 'CocaCola', '9', 'Bananas','14', 'Pasta', '4', 'Beer', '2'],
+
+//                ['Flour', '44', 'Oil', '12', 'Pasta', '7','Tomatoes', '70', 'Bananas', '30'])
+
+// // storeProvision(['Salt', '2', 'Fanta', '4', 'Apple', '14','Water', '4', 'Juice', '5'], 
+
+// //                [ 'Sugar', '44', 'Oil', '12', 'Apple', '7', 'Tomatoes', '7', 'Bananas', '30'])
+
+
+
+// function inventory(arr) {
+//     const len=arr.length
+//     const heroes={}
+
+//     for (let i = 0; i < len; i++) {
+//         const hero=arr.shift().split(' / ')
+//         const heroName= hero[0]
+//         const heroLevel = Number(hero[1])
+//         const heroInv= hero[2]
+//         if (!heroInv) {
+//             heroes[heroName]={level:heroLevel,inv:0}
+//         }else{
+//             heroes[heroName]={level:heroLevel,inv:heroInv}
+//         }
+        
+//     }
+
+//     let result = Object.entries(heroes)
+//     result.sort((a,b)=>a[1].level-b[1].level)
+
+//     for (const [hero,levelAndInv] of result) {
+//         console.log(`Hero: ${hero}`);
+//         console.log(`level => ${levelAndInv.level}`);
+//         if (levelAndInv.inv === 0) {
+            
+//         }else{
+//             console.log(`items => ${levelAndInv.inv}`);
+//         }
+//     }
+// }
+// inventory([
+//     'Isacc / 25 / Apple, GravityGun',
+//     'Derek / 12 / BarrelVest, DestructionSword',
+//     'Hes / 1 / Desolator, Sentinel, Antara'
+//     ])
+// inventory([
+//     'Batman / 2 / Banana, Gun',
+//     'Superman / 18 / Sword',
+//     'Poppy / 28 / Sentinel, Antara'
+//     ])
+
+
+
+
+
+// function dictionary(dict) {
+//     const lib = {};
+//     //creating dictionary
+//     for (const terminology of dict) {
+//         let depict = JSON.parse(terminology)
+//         const term = Object.keys(depict);
+//         const def = Object.values(depict);
+//         lib[term] = def;
+//     }
+//     //sorting
+//     const sorted = Object.keys(lib)
+//     sorted.sort((a,b) => a.localeCompare(b))
+//     //output
+//     sorted.forEach(token => {console.log(`Term: ${token} => Definition: ${lib[token]}`);})
+// }
+// dictionary([
+
+//     '{"Coffee":"A hot drink made from the roasted and ground seeds (coffee beans) of a tropical shrub."}',
+    
+//     '{"Bus":"A large motor vehicle carrying passengers by road, typically one serving the public on a fixed route and for a fare."}',
+    
+//     '{"Boiler":"A fuel-burning apparatus or container for heating water."}',
+    
+//     '{"Tape":"A narrow strip of material, typically used to hold or fasten something."}',
+    
+//     '{"Microphone":"An instrument for converting sound waves into electrical energy variations which may then be amplified, transmitted, or recorded."}'
+//     ])
+
+

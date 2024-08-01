@@ -188,3 +188,87 @@
 //     'OUT, CA2866HI',
 //     'IN, CA9876HH',
 //     'IN, CA2822UU'])
+
+
+
+// function cardGame(arr) {
+//     //cards power
+//     const values = {'2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9, '10': 10, 'J': 11, 'Q': 12, 'K': 13, 'A': 14}
+//     const types = {'S': 4, 'H': 3, 'D': 2, 'C': 1}
+//     //creating lib for the players and hands
+//     const players = {};
+//     const hands = {};
+//     //allocating cards to players
+//     for (const elements of arr) {
+//         const [player, cards] = elements.split(": ");
+//         const hand = cards.split(", ");
+ 
+//         if (!players.hasOwnProperty(player)) {
+//             players[player] = 0;
+//             hands[player] = new Set();
+//         }
+ 
+//         for (const card of hand) {
+//             if (!hands[player].has(card)) {
+//                 hands[player].add(card);
+
+//                 const power = card.slice(0, -1);
+//                 const type = card.slice(-1);
+//                 const powers = values[power];
+//                 const value = types[type];
+
+//                 players[player] += powers * value;
+//             }
+//         }
+//     }
+//     //output
+//     const entries = Object.entries(players)
+//     for (const [name, value] of entries) {
+//         console.log(`${name}: ${value}`);
+//     }
+// }
+// cardGame([
+//     'Peter: 2C, 4H, 9H, AS, QS',
+//     'Tomas: 3H, 10S, JC, KD, 5S, 10S',
+//     'Andrea: QH, QC, QS, QD',
+//     'Tomas: 6H, 7S, KC, KD, 5S, 10C',
+//     'Andrea: QH, QC, JS, JD, JC',
+//     'Peter: JD, JD, JD, JD, JD, JD'
+//     ])
+
+
+
+// function party (arr){
+//     let currGuest = arr.shift()
+//     const VIPs = []
+//     const regulars = []
+//     //allocate
+//     while (currGuest != "PARTY"){
+//         let isVIP = isNaN(currGuest[0])
+//         if (isVIP){
+//             regulars.push(currGuest)
+//         }
+//         else {
+//             VIPs.push(currGuest)
+//         }
+//         currGuest = arr.shift()
+//     }
+
+//     const Guests = VIPs.concat(regulars)
+    
+//     for (guest of arr){
+//         Guests.splice(Guests.indexOf(guest),1)
+//     }
+//     //output
+//     console.log(Guests.length)
+//     Guests.forEach(guest => {console.log(guest)})
+// }
+// party(['7IK9Yo0h',
+//     '9NoBUajQ',
+//     'Ce8vwPmE',
+//     'SVQXQCbc',
+//     'tSzE5t0p',
+//     'PARTY',
+//     '9NoBUajQ',
+//     'Ce8vwPmE',
+//     'SVQXQCbc'])

@@ -62,9 +62,11 @@
 
 //////////////////////////////////////////////////////////////////////
 // const dog={}
-
-// // dog['name']='Roshkavo'           //ednakvo s dolnoto
+// const rosh='Roshko'
+// const ageRosh=3
+// dog['name']='Roshkavo'           //ednakvo s dolnoto
 // dog.name = 'Roshko'
+// dog.rosh=ageRosh
 // dog.age = 3                         //dobavqme kym object
 // dog.bark = function () {
 //     console.log('bark bark bark');
