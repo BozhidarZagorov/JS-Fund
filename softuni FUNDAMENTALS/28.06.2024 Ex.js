@@ -273,3 +273,32 @@
 //     ])
 
 
+
+// function inventoryy(arr) {
+//     const heroes=[]
+
+//     for (const heroInfo of arr) {
+//         let [heroName,heroLevel,heroItems]=heroInfo.split(' / ')
+//         heroLevel=Number(heroLevel)
+
+//         let heroObj = {name: heroName, level:heroLevel, items:heroItems}
+//         heroes.push(heroObj)
+//     }
+//     let sortedHeroes=heroes.sort((a,b)=>a.level - b.level)
+
+//     for (const heroObj of sortedHeroes) {
+//         console.log(`Hero: ${heroObj.name}`);
+//         console.log(`level => ${heroObj.level}`);
+//         console.log(`items => ${heroObj.items}`);
+//     }
+// }
+// inventoryy([
+//     'Isacc / 25 / Apple, GravityGun',
+//     'Derek / 12 / BarrelVest, DestructionSword',
+//     'Hes / 1 / Desolator, Sentinel, Antara'
+//     ])
+// inventoryy([
+//     'Batman / 2 / Banana, Gun',
+//     'Superman / 18 / Sword',
+//     'Poppy / 28 / Sentinel, Antara'
+//     ])
